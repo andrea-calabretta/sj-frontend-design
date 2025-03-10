@@ -1,0 +1,93 @@
+/* Reset di base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  padding-bottom: 50px; /* Spazio per il footer */
+  padding-top: 60px; /* Offset per evitare che la navbar copra il contenuto */
+}
+
+/* Stile dei link */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Navbar fissa in alto */
+.navbar {
+  position: fixed;  /* Fissa la navbar */
+  top: 0;
+  left: 0;
+  width: 100%;  /* Occupa tutta la larghezza */
+  padding: 15px 0;
+  background-color: white;  /* Assicura che sia visibile sopra il contenuto */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra per evidenziarla */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1000; /* Mantiene la navbar sopra gli altri elementi */
+}
+
+/* Contenuto principale */
+.inline {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 48px;
+}
+
+.iPhone {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.design-to-be-loved {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* Sezione delle card */
+.cards {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 600px;
+  border-radius: 28px;
+  margin: 0 20px;
+}
+
+.black {
+  background-color: #1E1E1E;
+}
+
+.green {
+  background-color: #BBCEA8;
+}
+
+.yellow {
+  background-color: #F2D49B;
+}
+
+.light-yellow {
+  background-color: #F0EC57;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f5f5f5;
+}
+
+.copyright {
+  font-size: 14px;
+}

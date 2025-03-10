@@ -1,0 +1,41 @@
+.box-1{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #331832;
+  left: 100px;
+  top: 100px;
+}
+
+.box-2{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #D81E5B;
+  left: 10px;
+  top: 10px;
+}
+
+.outer, .middle, .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+}
+
+.middle {
+  width: 60%;
+  height: 60%;
+  background-color: lightcoral;
+}
+
+.inner {
+  width: 40%;
+  height: 40%;
+  background-color: lightgreen;
+}
